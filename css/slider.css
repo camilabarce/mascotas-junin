@@ -1,0 +1,95 @@
+@import url('main.css');
+
+.slider-container {
+    background-color: var(--blanco);
+    width: 100%;
+    padding: 1rem;
+}
+
+ul.slider {
+    position: relative;
+    width: 100%;
+    height: 40vh;
+    border-radius: 1rem;
+    -webkit-box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
+    -moz-box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
+    box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
+}
+
+ul.slider:hover {
+    -webkit-box-shadow: 19px 23px 109px -50px rgba(61,61,61,1);
+    -moz-box-shadow: 19px 23px 109px -50px rgba(61,61,61,1);
+    box-shadow: 19px 23px 109px -50px rgba(61,61,61,1);
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    background-color: transparent;
+    transition: opacity .5s;
+    border-radius: 1rem;
+}
+
+ul.slider li img {
+    border-radius: inherit;
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu-slider {
+    display: flex;
+    justify-content: center;
+    gap: .2rem;
+    margin-top: .5rem;
+}
+
+.menu-slider li {
+    text-align: center;
+}
+
+.menu-slider li a {
+    color: grey;
+    font-size: .8rem;
+}
+
+.menu-slider li a:hover {
+    color: rgb(37, 37, 37);
+}
+
+#slide1 h2 {
+    position: absolute;
+    top: 0;
+    width: 80%;
+    padding: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: var(--gris-claro);
+}
+
+#slide2 button {
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    width: 6rem;
+    height: 2.5rem;
+    text-align: center;
+    border-radius: .75rem;
+    background-color: var(--gris-claro);
+    cursor: pointer;
+}

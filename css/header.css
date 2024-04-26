@@ -1,0 +1,80 @@
+header {
+    padding: 1.25rem 1.5rem;
+    display: flex;
+    height: 4rem;
+}
+
+/* menú hamburguesa */
+.boton-menu {
+    display: flex;
+    flex-direction: column;
+    width: 2rem;
+    height: 2rem;
+    border: 0;
+    background: transparent;
+    gap: .43rem;
+    cursor: pointer;
+}
+
+.boton-menu>span {
+    background: var(--gris-oscuro);
+    height: .067rem;
+    width: 100%;
+    border-radius: .5rem;
+    transition: all .5s;
+    transform-origin: left;
+}
+
+.active_span1-menu {
+    transform: rotate(45deg) translate(-0.125rem, 0.085rem);
+}
+
+.active_span2-menu {
+    opacity: 0;
+}
+
+.active_span3-menu {
+    transform: rotate(-45deg) translate(-0.4rem, 0.085rem);
+}
+
+.contenedor-logo {
+    width: 5rem;
+    height: 5rem;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+
+/* menu lateral */
+.nav {
+    display: none;
+}
+
+.contenedor-menu {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    width: 50vw;
+    height: 88vh;
+    margin-left: -1.5rem;
+    transition: display .5s;
+    box-shadow: 0 0.25rem 1.8rem rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(.75rem);
+    -webkit-backdrop-filter: blur(.75rem);
+    z-index: 1;
+    color: var(--gris-oscuro);
+    -webkit-border-bottom-right-radius: 1rem;
+    -moz-border-radius-bottomright: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.menu {
+    padding: 1.5rem;
+    box-shadow: 32px 8px 32px -38px rgba(0, 0, 0, 0.41);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
