@@ -4,11 +4,11 @@
 @import url('header.css');
 @import url('slider.css');
 @import url('list-cards.css');
+@import url('ficha.css');
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
-    
 }
 
 body {

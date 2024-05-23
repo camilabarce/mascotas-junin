@@ -12,3 +12,12 @@ function animarBoton() {
     span3.classList.toggle("active_span3-menu");
     menu.classList.toggle("contenedor-menu");
 }
+
+document.addEventListener("click", function(event) {
+    let clickEnMenu = menu.contains(event.target);
+    let clickEnBoton = document.querySelector(".boton-menu").contains(event.target);
+
+    if (!clickEnMenu && !clickEnBoton && menu.classList.contains("contenedor-menu")) {
+        animarBoton();
+    }
+});

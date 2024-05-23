@@ -1,0 +1,34 @@
+.ficha-container {
+    background-color: var(--gris-xclaro);
+    height: 100vh;
+    margin: 1rem;
+    border-radius: .5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ficha-container img {
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 1rem;
+    padding: .75rem;
+}
+
+.glass-container {
+    border-radius: .5rem;
+    padding: 1rem;
+    width: fit-content;
+    position: relative;
+    bottom: 6vh;
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+    -webkit-backdrop-filter: blur(3.9px);
+}
+
+.glass-container h2 {
+    font-weight: 600;
+}
