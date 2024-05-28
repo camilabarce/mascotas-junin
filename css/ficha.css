@@ -1,3 +1,15 @@
+.btn-flecha {
+    position: relative;
+    padding: .5rem;
+    /* border: solid; */
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+
+.btn-flecha:hover {
+    background-color: var(--gris-xclaro);
+
+}
 .ficha-container {
     background-color: var(--gris-xclaro);
     height: 100vh;
@@ -17,6 +29,9 @@
 }
 
 .glass-container {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
     border-radius: .5rem;
     padding: 1rem;
     width: fit-content;
