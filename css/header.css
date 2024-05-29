@@ -2,6 +2,8 @@ header {
     padding: 1.25rem 1.5rem;
     display: flex;
     height: 4rem;
+    position: relative;
+    z-index: 1;
 }
 
 /* menú hamburguesa */
@@ -62,7 +64,7 @@ header {
     box-shadow: 0 0.25rem 1.8rem rgba(0, 0, 0, 0.);
     backdrop-filter: blur(.75rem);
     -webkit-backdrop-filter: blur(.75rem);
-    z-index: 1;
+    z-index: 3;
     color: var(--gris-oscuro);
     -webkit-border-bottom-right-radius: 1rem;
     -moz-border-radius-bottomright: 1rem;

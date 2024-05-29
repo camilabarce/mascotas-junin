@@ -1,23 +1,29 @@
 .btn-flecha {
     position: relative;
+    z-index: 0;
     padding: .5rem;
-    /* border: solid; */
-    border-radius: 1rem;
+    /* border: 0.01rem solid var(--gris-medio); */
+    border-radius: .5rem;
     margin-left: 1rem;
+    font-size: 0.9rem;
+    color: var(--gris-oscuro);
 }
 
 .btn-flecha:hover {
-    background-color: var(--gris-xclaro);
+    background-color: var(--gris-medio);
+    color: var(--gris-xclaro);
 
 }
+
 .ficha-container {
     background-color: var(--gris-xclaro);
-    height: 100vh;
+    height: auto;
     margin: 1rem;
     border-radius: .5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 0.9rem;
 }
 
 .ficha-container img {
@@ -32,13 +38,14 @@
     display: flex;
     flex-direction: column;
     gap: .3rem;
-    border-radius: .5rem;
+    border-radius: .9rem;
     padding: 1rem;
-    width: fit-content;
+    text-align: center;
+    min-width: 30vw;
+    max-width: fit-content;
     position: relative;
     bottom: 6vh;
     background: rgba(255, 255, 255, 0.46);
-    border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(3.9px);
     -webkit-backdrop-filter: blur(3.9px);
@@ -46,4 +53,56 @@
 
 .glass-container h2 {
     font-weight: 600;
+}
+
+.gris-container {
+    border: 0.01rem solid var(--gris-medio);
+    padding: 1rem;
+    border-radius: 1rem 1rem 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+    min-width: 30vw;
+    margin-top: -1rem;
+}
+
+.gris-container h3 {
+    font-weight: 500;
+}
+
+.container-gris {
+    display: flex;
+    gap: 2rem;
+}
+
+.info-persona {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+    border: 0.01rem solid var(--gris-medio);
+    border-radius: .9rem;
+    margin-bottom: 1rem; 
+}
+
+.info-persona img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info-persona h3 {
+    font-weight: 600;
+}
+
+.info-persona a img{
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+}
+
+.parrafo-ficha {
+    padding: 1.2rem;
+    line-height: normal;
 }
