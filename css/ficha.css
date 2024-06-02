@@ -2,7 +2,6 @@
     position: relative;
     z-index: 0;
     padding: .5rem;
-    /* border: 0.01rem solid var(--gris-medio); */
     border-radius: .5rem;
     margin-left: 1rem;
     font-size: 0.9rem;
@@ -62,17 +61,27 @@
     display: flex;
     flex-direction: column;
     gap: .25rem;
-    min-width: 30vw;
-    margin-top: -1rem;
+    width: auto;
+    margin-bottom: .5rem;
 }
 
 .gris-container h3 {
     font-weight: 500;
 }
 
+.gris-container p>i.bx.bxs-check-circle {
+    color: var(--verde);
+}
+
+.gris-container p>i.bx.bxs-x-circle {
+    color: var(--marron);
+}
+
 .container-gris {
-    display: flex;
-    gap: 2rem;
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+    gap: .5rem;
 }
 
 .info-persona {
@@ -103,6 +112,6 @@
 }
 
 .parrafo-ficha {
-    padding: 1.2rem;
+    padding: .8rem 1rem;
     line-height: normal;
 }
