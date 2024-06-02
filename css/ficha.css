@@ -79,6 +79,7 @@
 
 .container-gris {
     width: 100%;
+    padding: .75rem;
     display: flex; 
     justify-content: space-evenly;
     gap: .5rem;
@@ -112,6 +113,6 @@
 }
 
 .parrafo-ficha {
-    padding: .8rem 1rem;
+    padding: .8rem 1.5rem;
     line-height: normal;
 }

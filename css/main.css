@@ -3,8 +3,10 @@
 @import url('reset.css');
 @import url('header.css');
 @import url('slider.css');
+@import url('filtro.css');
 @import url('list-cards.css');
 @import url('ficha.css');
+@import url('footer.css');
 
 * {
     box-sizing: border-box;

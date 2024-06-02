@@ -1,0 +1,29 @@
+.filtro {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    background-color: var(--gris-xclaro); 
+    box-shadow: 4px 4px 55px -22px rgba(61,61,61,0.76);
+    border-radius: .5rem;
+    margin:  1rem;
+    padding: .9rem 0;
+}
+
+.filtro h2 {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.container-iconos-filtro {
+    display: flex;
+    gap: 2rem;
+}
+.filtro .container-iconos-filtro img {
+    filter: grayscale(100%);
+    width: 2.4rem;
+}
+
+.filtro .container-iconos-filtro img:hover, .filtro .container-iconos-filtro img:focus{
+    filter: grayscale(0%);
+}
