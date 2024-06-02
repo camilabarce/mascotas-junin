@@ -1,0 +1,17 @@
+#btn-up {
+    padding: .8rem;
+    border-radius: 100%;
+    background: rgba(30, 30, 30, 0.177);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 10;
+    bottom: 2vh;
+    right: 4vw;
+}
+
+#btn-up i {
+    border-radius: 100%;
+    font-size: 1.3rem;
+}

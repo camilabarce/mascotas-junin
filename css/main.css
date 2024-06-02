@@ -7,19 +7,17 @@
 @import url('list-cards.css');
 @import url('ficha.css');
 @import url('footer.css');
+@import url('utilities.css');
 
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
 
-body {
+:root {
     font-family: "Inter", Helvetica, Arial, sans-serif;
     background-color: var(--gris-claro);
     color: var(--gris-oscuro);
-}
-
-:root {
     --rosa: #FFB6C1;
     --marron: #A0522D;
     --verde: #88B04B;

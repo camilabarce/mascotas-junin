@@ -28,17 +28,15 @@
     <nav class="nav">
       <ul class="menu">
         <li><a href="#adopta">Adoptá</a></li>
-        <li><a href="">Perdidos</a></li>
-        <li><a href="">Colaborá</a></li>
-        <li><a href="">Contacto</a></li>
+        <li><a href="perdidos.html">Perdidos</a></li>
+        <li><a href="colabora.html">Colaborá</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
   <main id="main">
-    <!-- boton para ir hacia arriba de todo -->
-    <!-- <button id="btn-up" class="btn-up"><i class='bx bxs-chevron-up'></i></button> -->
+    <button id="btn-up" type="button"><i class='bx bxs-chevron-up'></i></button>
 
-    <!-- slider/banner -->
     <div class="slider-container">
       <ul class="slider">
         <li id="slide1">
@@ -61,36 +59,21 @@
       </ul>
     </div>
 
-    <!-- adopciones -->
     <section id="adopta">
       <div class="filtro">
         <h2>Encontrá a tu nuevo mejor amigo</h2>
         <p>¿Qué mascota buscás?</p>
         <div class="container-iconos-filtro">
-          <a href="#perros">
+          <a href="#" id="perros">
             <img src="img/iconos/perro.png" alt="icono de perro">
           </a>
-          <a href="#gatos">
+          <a href="#" id="gatos">
             <img src="img/iconos/gato.png" alt="icono de gato">
           </a>
         </div>
       </div>
-      <div class="cards-container gatos">
+      <div id="gatosContainer" class="cards-container">
         <ul class="cards-list">
-          <li class="cards-item">
-            <a href="ficha.html"><img src="img/gatos/gata.jpeg"></a>
-            <div class="text-card-container">
-              <h3>Olivia</h3>
-              <p>Hembra, 1 año</p>
-            </div>
-          </li>
-          <li class="cards-item">
-            <img src="img/gatos/gato.jpeg">
-            <div class="text-card-container">
-              <h3>Tom</h3>
-              <p>Macho, 9 meses</p>
-            </div>
-          </li>
           <li class="cards-item">
             <a href="ficha.html"><img src="img/gatos/gata.jpeg"></a>
             <div class="text-card-container">
@@ -107,7 +90,7 @@
           </li>
         </ul>
       </div>
-      <div class="cards-container perros">
+      <div id="perrosContainer" class="cards-container hide">
         <ul class="cards-list">
           <li class="cards-item">
             <img src="img/perros/nestor.webp">
@@ -131,6 +114,8 @@
     <p class="text-footer">Desarrollado con <img src="img/iconos/corazon.png" alt="emoji corazón brillante"> por <a href="https://www.linkedin.com/in/camilabarce/" target="_blank">Camila Arce</a></p>
   </footer>
   <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/filtro.js"></script>
 </body>
 
 </html>
