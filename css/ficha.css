@@ -115,4 +115,5 @@
 .parrafo-ficha {
     padding: .8rem 1.5rem;
     line-height: normal;
+    overflow-wrap: break-word;
 }

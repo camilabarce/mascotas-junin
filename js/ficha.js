@@ -1,4 +1,18 @@
+function getQueryParams() {
+    const params = {};
+    const queryString = window.location.search.slice(1);
+    const queryArray = queryString.split('&');
+
+    queryArray.forEach(param => {
+        const [key, value] = param.split('=');
+        params[key] = decodeURIComponent(value);
+    });
+
+    return params;
+}
+
 document.addEventListener('DOMContentLoaded', function () {
+    const params = getQueryParams();
     const animalType = localStorage.getItem('selectedAnimalType');
     const animalId = localStorage.getItem('selectedAnimalId');
 
