@@ -1,0 +1,53 @@
+{
+    "olivia": {
+        "nombre": "Olivia",
+        "imagen": "img/gatos/olivia.jpeg",
+        "edad": "1 año",
+        "sexo": "Hembra",
+        "tamaño": "Chico",
+        "peso": "3 kg",
+        "esterilizacion": true,
+        "vacunacion": "Al día",
+        "descripcion": "Olivia es una gatita rescatada muy mimosa. Busca hogar responsable, lleno de amor y caricias.",
+        "contacto": {
+            "nombre": "María",
+            "apellido": "López",
+            "imagen": "img/personas/maria-lopez.jpg",
+            "whatsapp": "5492364538984"
+        }
+    },
+    "tom": {
+        "nombre": "Tom",
+        "imagen": "img/gatos/tom.jpeg",
+        "edad": "9 meses",
+        "sexo": "Macho",
+        "tamaño": "Mediano",
+        "peso": "4 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Tom es un gato juguetón y curioso. Le encanta explorar su entorno.",
+        "contacto": {
+            "nombre": "Juan",
+            "apellido": "Pérez",
+            "imagen": "img/personas/juan-perez.jpg",
+            "whatsapp": "5492364538985"
+        }
+    },
+    "luna": {
+        "nombre": "Luna",
+        "imagen": "img/gatos/luna.jpg",
+        "edad": "2 años",
+        "sexo": "Hembra",
+        "tamaño": "Chico",
+        "peso": "2 kg",
+        "esterilizacion": true,
+        "vacunacion": "Completa",
+        "descripcion": "Luna es una gatita muy tranquila y cariñosa. Le encanta dormir y recibir mimos.",
+        "contacto": {
+            "nombre": "Ana",
+            "apellido": "Gómez",
+            "imagen": "img/personas/ana-gomez.jpg",
+            "whatsapp": "5492364538986"
+        }
+    }
+}
