@@ -1,0 +1,36 @@
+{
+    "nestor": {
+        "nombre": "Néstor",
+        "imagen": "img/perros/nestor.jpeg",
+        "edad": "2 meses",
+        "sexo": "Macho",
+        "tamaño": "Chico",
+        "peso": "1 kg",
+        "esterilizacion": false,
+        "vacunacion": "Al día",
+        "descripcion": "Es un perrito muy mimoso. Busca hogar responsable, lleno de amor y caricias.",
+        "contacto": {
+            "nombre": "María",
+            "apellido": "López",
+            "imagen": "img/personas/maria-lopez.jpg",
+            "whatsapp": "5492364538984"
+        }
+    },
+    "raul": {
+        "nombre": "Raúl",
+        "imagen": "img/perros/raul.png",
+        "edad": "3 años",
+        "sexo": "Macho",
+        "tamaño": "Mediano",
+        "peso": "10 kg",
+        "esterilizacion": true,
+        "vacunacion": "Al día",
+        "descripcion": "Es un perrito muy juguetón. Busca hogar responsable, lleno de amor y caricias.",
+        "contacto": {
+            "nombre": "María",
+            "apellido": "López",
+            "imagen": "img/personas/maria-lopez.jpg",
+            "whatsapp": "5492364538984"
+        }
+    }
+}
