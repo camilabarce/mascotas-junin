@@ -1,3 +1,40 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const params = getQueryParams();
+    const animalType = params.animal;
+    const animalId = params.id;
+
+    if (animalType && animalId) {
+        loadAnimalDetail(`./data/${animalType}.json`, animalId, animalType);
+    } else {
+        console.error('Parámetros de URL faltantes');
+    }
+
+    const shareBtn = document.getElementById('shareBtn');
+
+    if (shareBtn) {
+        shareBtn.addEventListener('click', function () {
+            const url = window.location.href;
+            navigator.clipboard.writeText(url).then(function () {
+                Toastify({
+                    text: "Link copiado al portapapeles",
+                    duration: 3000,
+                    newWindow: true,
+                    gravity: "top", // `top` or `bottom`
+                    position: "center", // `left`, `center` or `right`
+                    stopOnFocus: true, // Prevents dismissing of toast on hover
+                    style: {
+                        background: "linear-gradient(to right, #f8f8f8, #88B04B)",
+                        color: "#1e1e1e",
+                        borderRadius: ".5rem"
+                    },
+                }).showToast();
+            }, function (err) {
+                console.error('Error al copiar el enlace: ', err);
+            });
+        });
+    }
+});
+
 function getQueryParams() {
     const params = {};
     const queryString = window.location.search.slice(1);
@@ -10,18 +47,6 @@ function getQueryParams() {
 
     return params;
 }
-
-document.addEventListener('DOMContentLoaded', function () {
-    const params = getQueryParams();
-    const animalType = localStorage.getItem('selectedAnimalType');
-    const animalId = localStorage.getItem('selectedAnimalId');
-
-    if (animalType && animalId) {
-        loadAnimalDetail(`./data/${animalType}.json`, animalId, animalType);
-    } else {
-        console.error('No se encontró información del animal seleccionado en localStorage.');
-    }
-});
 
 function loadAnimalDetail(dataFile, animalId, animalType) {
     fetch(dataFile)
@@ -44,7 +69,7 @@ function loadAnimalDetail(dataFile, animalId, animalType) {
             document.querySelector('.parrafo-ficha').innerText = animalData.descripcion;
             document.querySelector('.nombre').innerText = animalData.contacto.nombre;
             document.querySelector('.info-persona img').src = animalData.contacto.imagen;
-            document.querySelector('.info-persona h3').innerText = animalData.contacto.nombre + " " + animalData.contacto.apellido; 
+            document.querySelector('.info-persona h3').innerText = animalData.contacto.nombre;
             document.querySelector('.info-persona a').href = "https://wa.me/" + animalData.contacto.whatsapp + "?text=%C2%A1Hola%21%20Quiero%20adoptar";
         })
         .catch(error => console.error(`Error al cargar la ficha del ${animalType}:`, error));

@@ -1,0 +1,30 @@
+{
+    "firulais": {
+        "img": "./img/perdidos/perdido1.jpg",
+        "nombre": "Firulais",
+        "fecha": "03/01/2024",
+        "barrio": "Barrio 1",
+        "descripcion": "Descripción de la mascota 1"
+    },
+    "pepito": {
+        "img": "./img/perdidos/perdido2.jpg",
+        "nombre": "Pepito",
+        "fecha": "02-01-2022",
+        "barrio": "Barrio 2",
+        "descripcion": "Descripción de la mascota 2"
+    },
+    "lucas": {
+        "img": "./img/perdidos/perdido1.jpg",
+        "nombre": "Lucas",
+        "fecha": "01-01-2022",
+        "barrio": "Barrio 3",
+        "descripcion": "Descripción de la mascota 3"
+    },
+    "lola": {
+        "img": "./img/perdidos/perdido1.jpg",
+        "nombre": "Lola",
+        "fecha": "01-01-2022",
+        "barrio": "Barrio 4",
+        "descripcion": "Descripción de la mascota 4"
+    }
+}

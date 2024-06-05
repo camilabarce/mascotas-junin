@@ -28,7 +28,7 @@
     <nav class="nav">
       <ul class="menu">
         <li><a href="index.html">Adoptá</a></li>
-        <li><a href="#perdidos">Perdidos</a></li>
+        <li><a href="#perdidos">Perdidos/ Encontrados</a></li>
         <li><a href="colabora.html">Colaborá</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
@@ -36,12 +36,43 @@
   </header>
   <main id="main">
     <button id="btn-up" type="button"><i class='bx bxs-chevron-up'></i></button>
+
+    <div class="slider-container">
+      <ul class="slider">
+        <li id="slide1">
+          <img src="img/gato-perdidos.jpg" alt="gato mirando a la camara">
+          <h3 class="slide-texto">¿Perdiste a tu mascota?</h3>
+          <p class="slide-texto">Te ayudamos a encontrarla</p>
+        </li>
+      </ul>
+    </div>
+    <!-- lista de mascotas perdidas -->
+    <div id="perdidos">
+      <ul id="perdidosList" class="cards-list">
+
+      </ul>
+    </div>
+
+    <div class="slider-container">
+      <ul class="slider">
+        <li id="slide1">
+          <img src="img/perro-perdidos.webp" alt="gato mirando a la camara">
+          <div class="bg-gray">
+            <h3>¿Encontraste una mascota?</h3>
+            <p>Publicala para que sus dueños la vean</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- formulario para cargar una mascota extraviada -->
   </main>
   <footer>
     <p class="text-footer">Desarrollado con <img src="img/iconos/corazon.png" alt="emoji corazón brillante"> por <a
         href="https://www.linkedin.com/in/camilabarce/" target="_blank">Camila Arce</a></p>
   </footer>
   <script src="js/main.js"></script>
+  <script src="js/perdidos.js"></script>
 </body>
 
 </html>

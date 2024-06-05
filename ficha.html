@@ -9,6 +9,9 @@
 	<!-- iconos -->
 	<script src="https://kit.fontawesome.com/c4e5ddd662.js" crossorigin="anonymous"></script>
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
 
 	<link rel="shortcut icon" href="./img/iconos/patitas.png" type="image/x-icon">
 </head>
@@ -66,8 +69,6 @@
 				<div class="gris-container esterilizacion">
 					<h3>Esterilización</h3>
 					<p></p>
-					<!-- icono de una cruz
-					<p><i class="bx bxs-x-circle"></i></p> <i class='bx bxs-check-circle'></i>-->
 				</div>
 				<div class="gris-container vacunacion">
 					<h3>Vacunación</h3>
@@ -81,13 +82,21 @@
 			<div class="info-persona">
 				<img src="">
 				<h3></h3>
-				<a href=""><img
-						src="img/iconos/whatsapp.png" alt="ícono de whatsapp"></a>
+				<a href=""><img src="img/iconos/whatsapp.png" alt="ícono de whatsapp"></a>
+			</div>
+			<div class="gris-container compartir">
+				<button type="button" id="shareBtn">
+					<span class="share">Compartir link</span>
+					<span class="material-symbols-outlined">
+						share
+					</span>
+				</button>
 			</div>
 		</div>
 	</main>
 	<script src="js/main.js"></script>
 	<script src="js/ficha.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 
 </html>

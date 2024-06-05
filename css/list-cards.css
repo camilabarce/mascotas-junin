@@ -15,7 +15,6 @@
 
 .cards-item {
     width: 45%;
-    height: auto;
     background-color: var(--gris-xclaro);
     padding: .65rem;
     border-radius: .5rem;

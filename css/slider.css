@@ -15,6 +15,7 @@ ul.slider {
     -webkit-box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
     -moz-box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
     box-shadow: 19px 23px 29px -30px rgba(61, 61, 61, 1);
+    overflow: hidden;
 }
 
 ul.slider li {
@@ -102,4 +103,46 @@ ul.slider li.active {
 
 #slide2 button:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* página perdidos */
+
+#slide1 .slide-texto {
+    position: absolute;
+}
+
+#slide1 h3.slide-texto {
+    bottom: 23%;
+    left: 5%;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+#slide1 p.slide-texto {
+    bottom: 12%;
+    left: 6%;
+    font-size: .9rem;
+}
+
+.bg-gray {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    background-color: rgba(128, 128, 128, 0.809);
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .6rem;
+}
+
+.bg-gray h3 {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.bg-gray p {
+    font-size: .9rem;
+    padding-left: 1.1rem;
 }

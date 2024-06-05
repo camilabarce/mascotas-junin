@@ -117,3 +117,15 @@
     line-height: normal;
     overflow-wrap: break-word;
 }
+
+.gris-container.compartir button{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: .5rem;
+    cursor: pointer;
+}
+
+#shareBtn>span.share {
+    align-self: center;
+}
