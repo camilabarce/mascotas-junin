@@ -1,0 +1,142 @@
+.formContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: .8rem;
+}
+
+.formulario {
+    background-color: var(--gris-xclaro);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+    border-radius: .8rem;
+    padding: 1.8rem 0;
+    box-shadow: 0 1rem 2rem rgba(47, 46, 43, 0.15);
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    position: relative;
+    height: 3.5rem;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: .01rem solid var(--gris-medio);
+    border-radius: .5rem;
+    padding: 0 1rem;
+    outline: none;
+    background: none;
+    z-index: 1;
+    color: var(--gris-oscuro);
+}
+
+#textAreaContainer {
+    height: 5rem;
+}
+
+.textarea {
+    padding-top: 5%;
+    resize: none;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+.label {
+    position: absolute;
+    top: 36%;
+    left: 6%;
+    background-color: var(--gris-xclaro);
+    color: var(--gris-oscuro);
+    font-size: .9rem;
+    transition: 0.4s;
+    z-index: 0;
+}
+
+.enviarBtn {
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border-radius: .25rem;
+    background-color: #88b04b7d;
+    transition: 0.4s;
+}
+
+.enviarBtn:hover {
+    background-color: #88b04b;
+}
+
+.input:focus+.label {
+    top: -.38rem;
+    left: .75rem;
+    z-index: 10;
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--gris-medio);
+}
+
+.input:focus {
+    border: .01rem solid var(--gris-medio);
+}
+
+.input:not(:placeholder-shown)+.label {
+    top: -.5rem;
+    left: .75rem;
+    z-index: 10;
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.file-input {
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-label {
+    display: flex;
+    align-items: center;
+    font-size: .9rem;
+    border: thin solid var(--gris-medio);
+    border-radius: .5rem;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+    height: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.previewContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#preview {
+    max-width: 85%;
+    height: auto;
+    border: thin solid var(--gris-xclaro);
+    padding: .5rem;
+    border-radius: .8rem;
+}
+
+.valid {
+    border: thin solid #88b04b;
+}
+
+.invalid {
+    border: thin solid #bf4040;
+}

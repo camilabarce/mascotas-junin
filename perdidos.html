@@ -79,37 +79,42 @@
     </div>
 
     <!-- formulario para cargar una mascota extraviada -->
-    <div id="formulario-perdidos">
-      <form id="form-perdidos" class="form-perdidos">
-        <div class="form-group">
-          <label for="nombre">Nombre de la mascota</label>
-          <input type="text" id="nombre" name="nombre" required>
+    <div id="formulario-perdidos" class="formContainer">
+      <form id="form-perdidos" class="formulario" action="https://getform.io/f/pbnvdnwb" method="POST">
+        <div class="inputContainer">
+          <input class="input" type="text" id="nombre" name="nombre" placeholder="a" required>
+          <label class="label" for="nombre">Nombre de la mascota</label>
         </div>
-        <div class="form-group">
-          <label for="nombre-dueno">Tu nombre</label>
-          <input type="text" id="nombre-dueno" name="nombre-dueno" required>
+        <div class="inputContainer">
+          <input class="input" type="text" id="nombre-dueno" name="nombre-dueno" placeholder="a" required>
+          <label class="label" for="nombre-dueno">Tu nombre</label>
         </div>
-        <div class="form-group">
-          <label for="fecha">Fecha en que se perdió</label>
-          <input type="date" id="fecha" name="fecha" required>
+        <div class="inputContainer">
+          <input class="input" type="text" id="fecha" name="fecha" placeholder="a" required>
+          <label class="label" for="fecha">Fecha en que se perdió</label>
         </div>
-        <div class="form-group">
-          <label for="lugar">Lugar donde se perdió</label>
-          <input type="text" id="lugar" name="lugar" required>
+        <div class="inputContainer">
+          <input class="input" type="text" id="lugar" name="lugar" placeholder="a" required>
+          <label class="label" for="lugar">Lugar donde se perdió</label>
         </div>
-        <div class="form-group">
-          <label for="descripcion">Descripción de la mascota</label>
-          <textarea id="descripcion" name="descripcion" required></textarea>
+        <div class="inputContainer">
+          <textarea class="input textarea" id="descripcion" name="descripcion" placeholder="a" required></textarea>
+          <label class="label" for="descripcion">Descripción de la mascota</label>
         </div>
-        <div class="form-group">
-          <label for="contacto">Teléfono de contacto</label>
-          <input type="tel" id="contacto" name="contacto" required>
+        <div class="inputContainer">
+          <input class="input" type="tel" id="contacto" name="contacto" placeholder="a" required>
+          <label class="label" for="contacto">Teléfono de contacto</label>
         </div>
-        <div class="form-group">
-          <label for="foto">Foto de la mascota</label>
-          <input type="file" id="foto" name="foto" required>
+        <div class="inputContainer">
+          <input class="file-input" type="file" id="foto" name="foto" placeholder="a" required>
+          <label class="file-label" for="foto">📷 Foto de la mascota</label>
         </div>
-        <button type="submit">Enviar</button>
+        <div class="previewContainer">
+          <img id="preview" src="" alt="Image Preview" style="display: none;">
+        </div>
+        <div class="botonContainer">
+          <button class="enviarBtn" type="submit">Enviar</button>
+        </div>
       </form>
     </div>
   </main>
@@ -119,6 +124,7 @@
   </footer>
   <script src="js/main.js"></script>
   <script src="js/perdidos.js"></script>
+  <script src="js/form.js"></script>
 </body>
 
 </html>

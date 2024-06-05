@@ -16,7 +16,8 @@ function loadLostPetsList(dataFile) {
                         <a href="#open-modal" class="open-modal" data-id="${id}"><img src="${pet.img}" alt="Imagen de ${pet.nombre}"></a>
                         <div class="text-card-container">
                             <h3>${pet.nombre}</h3>
-                            <p>Se perdió el ${pet.fecha}</p>
+                            <p>Se perdió el</p>
+                            <p>${pet.fecha}</p>
                         </div>
                     </li>`;
                 container.insertAdjacentHTML('beforeend', petItem);
@@ -37,6 +38,6 @@ function loadLostPetsList(dataFile) {
 function openModal(petData) {
     document.getElementById('modal-nombre').innerText = petData.nombre;
     document.getElementById('modal-descripcion').innerText = petData.descripcion;
-    document.getElementById('modal-fecha-barrio').innerText = `Fue visto por última vez el ${petData.fecha} en ${petData.barrio}`;
-    document.getElementById('modal-contacto').innerText = `Si lo viste, avisá al ${petData.contacto} - ${petData['nombre-dueno']}`;
+    document.getElementById('modal-fecha-barrio').innerText = `🗓️ Fue visto por última vez el ${petData.fecha} en ${petData.barrio}`;
+    document.getElementById('modal-contacto').innerText = `📲 Si lo viste, avisá al ${petData.contacto} (${petData['nombre-dueno']})`;
 }

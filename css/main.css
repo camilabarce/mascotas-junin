@@ -10,6 +10,7 @@
 @import url('utilities.css');
 @import url('cards-perdidos.css');
 @import url('modal.css');
+@import url('form-perdidos.css');
 
 * {
     box-sizing: border-box;

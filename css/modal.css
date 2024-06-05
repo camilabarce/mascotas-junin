@@ -31,8 +31,9 @@
 }
 .modal-window h2 {
   font-size: 130%;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 15px;
+  text-align: center;
 }
 
 .modal-close {
@@ -48,4 +49,12 @@
 }
 .modal-close:hover {
   color: black;
+}
+
+#modal-descripcion {
+  font-style: italic;
+}
+
+#modal-contacto {
+  font-weight: 500;
 }
