@@ -1,0 +1,20 @@
+.main-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-container {
+    background-color: var(--gris-xclaro);
+    width: 90%;
+    padding: 1rem;
+    border-radius: .5rem;
+    margin: .5rem;
+    position: relative;
+}
+
+.contacto-container img {
+    position: absolute;
+    width: 40vw;
+    display: none;
+}
