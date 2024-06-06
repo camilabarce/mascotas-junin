@@ -8,30 +8,12 @@
         "nombre-dueno": "Juan Perez",
         "contacto": "2364538984"
     },
-    "pepito": {
-        "img": "./img/perdidos/perdido2.jpg",
-        "nombre": "Pepito",
+    "pepo": {
+        "img": "./img/perdidos/perdido2.avif",
+        "nombre": "Pepo",
         "fecha": "02-01-2022",
         "barrio": "Barrio 2",
         "descripcion": "Descripción de la mascota 2",
-        "nombre-dueno": "Juan Perez",
-        "contacto": "2364538984"
-    },
-    "lucas": {
-        "img": "./img/perdidos/perdido1.jpg",
-        "nombre": "Lucas",
-        "fecha": "01-01-2022",
-        "barrio": "Barrio 3",
-        "descripcion": "Descripción de la mascota 3",
-        "nombre-dueno": "Juan Perez",
-        "contacto": "2364538984"
-    },
-    "lola": {
-        "img": "./img/perdidos/perdido1.jpg",
-        "nombre": "Lola",
-        "fecha": "01-01-2022",
-        "barrio": "Barrio 4",
-        "descripcion": "Descripción de la mascota 4",
         "nombre-dueno": "Juan Perez",
         "contacto": "2364538984"
     }

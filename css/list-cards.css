@@ -33,7 +33,7 @@
 .cards-item img {
     border-radius: .5rem;
     width: 100%;
-    height: 65%;
+    height: 20vh;
     object-fit: cover;
 }
 

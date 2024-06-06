@@ -36,6 +36,49 @@
 	</header>
 	<main id="main">
 		<button id="btn-up" type="button"><i class='bx bxs-chevron-up'></i></button>
+		<div>
+			<h3>Si tenés alguna duda, sugerencia o simplemente querés saludar</h3>
+			<p>Completá el siguiente formulario</p>
+		</div>
+		<div id="contacto" class="formContainer">
+			<form id="form-perdidos" class="formulario" action="https://formspree.io/f/xbjnvwlb" method="POST">
+				<div class="inputContainer">
+					<input class="input" type="text" id="nombre" name="nombre" placeholder="a" required>
+					<label class="label" for="nombre">Nombre de la mascota</label>
+				</div>
+				<div class="inputContainer">
+					<input class="input" type="text" id="nombre-dueno" name="nombre-dueno" placeholder="a" required>
+					<label class="label" for="nombre-dueno">Tu nombre</label>
+				</div>
+				<div class="inputContainer">
+					<input class="input" type="text" id="fecha" name="fecha" placeholder="a" required>
+					<label class="label" for="fecha">Fecha en que se perdió</label>
+				</div>
+				<div class="inputContainer">
+					<input class="input" type="text" id="lugar" name="lugar" placeholder="a" required>
+					<label class="label" for="lugar">Lugar donde se perdió</label>
+				</div>
+				<div class="inputContainer">
+					<textarea class="input textarea" id="descripcion" name="descripcion" placeholder="a"
+						required></textarea>
+					<label class="label" for="descripcion">Descripción de la mascota</label>
+				</div>
+				<div class="inputContainer">
+					<input class="input" type="tel" id="contacto" name="contacto" placeholder="a" required>
+					<label class="label" for="contacto">Teléfono de contacto</label>
+				</div>
+				<div class="inputContainer">
+					<input class="file-input" type="file" id="foto" name="foto" placeholder="a" required>
+					<label class="file-label" for="foto">📷 Foto de la mascota</label>
+				</div>
+				<div class="previewContainer">
+					<img id="preview" src="" alt="Image Preview" style="display: none;">
+				</div>
+				<div class="botonContainer">
+					<button class="enviarBtn" type="submit">Enviar</button>
+				</div>
+			</form>
+		</div>
 	</main>
 	<footer>
 		<p class="text-footer">Desarrollado con <img src="img/iconos/corazon.png" alt="emoji corazón brillante"> por <a

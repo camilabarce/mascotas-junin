@@ -16,7 +16,6 @@
 
 .ficha-container {
     background-color: var(--gris-xclaro);
-    height: auto;
     margin: 1rem;
     border-radius: .5rem;
     display: flex;
@@ -27,7 +26,7 @@
 
 .ficha-container img {
     width: 100%;
-    height: 50%;
+    height: 50vh;
     object-fit: cover;
     border-radius: 1rem;
     padding: .75rem;
