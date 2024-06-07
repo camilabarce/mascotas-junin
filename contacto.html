@@ -37,12 +37,11 @@
 	<main id="main" class="main-contact">
 		<button id="btn-up" type="button"><i class='bx bxs-chevron-up'></i></button>
 		<div class="contacto-container">
-			<img src="img/contact-cat.png" alt="gato durmiendo">
-			<h3>Si tenés alguna duda, sugerencia o simplemente querés saludar</h3>
-			<p>Completá el siguiente formulario</p>
+			<h3>Si tenés alguna duda, sugerencia o simplemente querés saludar, no dudes en escribirnos.</h3>
+			<img src="img/gato-espiando.png" id="img-contacto">
 		</div>
 		<div id="contacto" class="formContainer">
-			<form id="form-perdidos" class="formulario" action="https://formspree.io/f/xbjnvwlb" method="POST">
+			<form id="form-perdidos" class="formulario contacto" action="https://formspree.io/f/xbjnvwlb" method="POST">
 				<div class="inputContainer">
 					<input class="input" type="text" id="nombre" name="nombre" placeholder="a" required>
 					<label class="label" for="nombre">Nombre</label>
@@ -52,8 +51,7 @@
 					<label class="label" for="correo">Correo</label>
 				</div>
 				<div class="inputContainer">
-					<textarea class="input textarea" id="mensaje" name="mensaje" placeholder="a"
-						required></textarea>
+					<textarea class="input textarea" id="mensaje" name="mensaje" placeholder="a" required></textarea>
 					<label class="label" for="mensaje">Mensaje</label>
 				</div>
 				<div class="botonContainer">

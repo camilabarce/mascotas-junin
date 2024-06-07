@@ -4,17 +4,24 @@
     align-items: center;
 }
 
+#img-contacto {
+    width: 26%;
+    position: absolute;
+    right: 3.7%;
+    top: 8%;
+}
+
 .contacto-container {
     background-color: var(--gris-xclaro);
     width: 90%;
     padding: 1rem;
     border-radius: .5rem;
     margin: .5rem;
-    position: relative;
 }
 
-.contacto-container img {
-    position: absolute;
-    width: 40vw;
-    display: none;
+.contacto-container h3 {
+    font-size: 1.1rem;
+    font-weight: lighter;
+    width: 80%;
+    padding: .9rem 0;
 }
