@@ -19,5 +19,5 @@ footer {
 }
 
 .text-footer a:hover {
-    color: #EB2DA1;
+    color: var(--gris-medio);
 }

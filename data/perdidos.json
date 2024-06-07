@@ -2,7 +2,7 @@
     "firulais": {
         "img": "./img/perdidos/perdido1.jpg",
         "nombre": "Firulais",
-        "fecha": "03/01/2024",
+        "fecha": "03/06/2024",
         "barrio": "Barrio 1",
         "descripcion": "Es blanco con manchas café, tiene 3 años y responde al nombre de Firu",
         "nombre-dueno": "Juan Perez",
@@ -11,9 +11,9 @@
     "pepo": {
         "img": "./img/perdidos/perdido2.avif",
         "nombre": "Pepo",
-        "fecha": "02-01-2022",
-        "barrio": "Barrio 2",
-        "descripcion": "Descripción de la mascota 2",
+        "fecha": "25/05/2024",
+        "barrio": "Barrio ",
+        "descripcion": "Es muy mimoso y juguetón, tiene 2 años y responde al nombre de Pepo",
         "nombre-dueno": "Juan Perez",
         "contacto": "2364538984"
     }

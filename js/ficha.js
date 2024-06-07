@@ -69,7 +69,7 @@ function loadAnimalDetail(dataFile, animalId, animalType) {
             document.querySelector('.parrafo-ficha').innerText = animalData.descripcion;
             document.querySelector('.nombre').innerText = animalData.contacto.nombre;
             document.querySelector('.info-persona img').src = animalData.contacto.imagen;
-            document.querySelector('.info-persona h3').innerText = animalData.contacto.nombre;
+            document.querySelector('.info-persona h3').innerText = animalData.contacto.nombre + " " + animalData.contacto.apellido;
             document.querySelector('.info-persona a').href = "https://wa.me/" + animalData.contacto.whatsapp + "?text=%C2%A1Hola%21%20Quiero%20adoptar";
         })
         .catch(error => console.error(`Error al cargar la ficha del ${animalType}:`, error));

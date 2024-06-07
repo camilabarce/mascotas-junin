@@ -34,8 +34,13 @@
 .bg-gray p {
     font-size: .9rem;
     padding-left: 1.1rem;
+    transition: all .4s;
+}
+
+.bg-gray p:hover {
+    color: var(--gris-claro);
 }
 
 .cards-item.perdidos {
-    height: 40vh;
+    height: 35vh;
 }
