@@ -130,7 +130,7 @@ ul.slider li.active {
 
     ul.slider, ul.slider li {
         border-radius: 0;
-        border-radius: 0px 200px 0 96px;
+        border-radius: 0px 200px 2px 96px;
         overflow: visible;
     }
     .menu-slider {

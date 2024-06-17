@@ -9,6 +9,8 @@
     z-index: 10;
     bottom: 2vh;
     right: 4vw;
+    color: rgb(85, 85, 85);
+    transition: all .5s;
 }
 
 #btn-up i {
@@ -16,8 +18,16 @@
     font-size: 1.3rem;
 }
 
+#btn-up:hover {
+    color: rgb(0, 0, 0);
+    background: rgba(30, 30, 30, 0.3);
+}
+
 @media (min-width: 768px) {
-    #adopta {
-        margin: 5rem 0;
+    #btn-up {
+        padding: 1rem;
+        cursor: pointer;
+        right: 3vw;
+        bottom: 4vh;
     }
 }

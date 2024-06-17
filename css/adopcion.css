@@ -1,6 +1,8 @@
 #dar-adopcion {
+    height: 35vh;
     display: flex;
     flex-direction: row;
+    align-items: center;
     background-color: var(--gris-xclaro);
     border-radius: .8rem;
     overflow: hidden;
@@ -29,11 +31,42 @@
     transition: all .4s;
 }
 
-.container-texto p:hover {
-    color: var(--marron);
+.container-texto a {
+    transition: all .5s;
+}
+.container-texto a:hover {
+    border-bottom: thin solid var(--gris-oscuro);
+    font-weight: 500;
 }
 .container-imagen img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    #dar-adopcion {
+        width: 80%;
+        margin: 2rem auto;
+        height: 50vh;
+    }
+
+    .container-imagen {
+        width: 30%;
+    }
+
+    .container-texto {
+        width: 70%;
+    }
+
+    .container-texto h2 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .container-texto p {
+        font-size: 1.3rem;
+        text-align: center;
+    }
 }
