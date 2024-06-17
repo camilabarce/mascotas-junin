@@ -1,0 +1,100 @@
+.nav {
+    display: none;
+}
+
+.contenedor-menu {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    width: 60vw;
+    height: 88vh;
+    margin-left: -1.5rem;
+    transition: all .5s;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 0.25rem 1.8rem rgba(0, 0, 0, 0.);
+    backdrop-filter: blur(.75rem);
+    -webkit-backdrop-filter: blur(.75rem);
+    z-index: 20;
+    color: var(--gris-oscuro);
+    -webkit-border-bottom-right-radius: 1rem;
+    -moz-border-radius-bottomright: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.menu {
+    padding: 2rem;
+    box-shadow: 32px 8px 32px -38px rgba(0, 0, 0, 0.41);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+}
+
+/* media para desktop */
+@media (min-width: 768px) {
+    .nav {
+        display: flex;
+        border-radius: 1rem;
+        padding: 1rem 3rem;
+        position: fixed;
+        /* From https://css.glass */
+        background: rgba(169, 169, 169, 0.18);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9.3px);
+        -webkit-backdrop-filter: blur(9.3px);
+        border: 1px solid rgba(169, 169, 169, 0.11);
+        transition: all .5s;
+    }
+
+    .nav:hover {
+        /* From https://css.glass */
+        background: rgba(169, 169, 169, 0.18);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(9.3px);
+        -webkit-backdrop-filter: blur(9.3px);
+        border: 1px solid rgba(169, 169, 169, 0.72);
+    }
+
+    .menu {
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        transition: all .5s;
+    }
+
+    .menu li a:hover{
+        padding-bottom: .2rem;
+        border-bottom: thin solid #1e1e1ea7;
+    }
+
+    /* 
+    .nav {
+        display: block;
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1rem;
+        background: var(--gris-claro);
+        box-shadow: 0 0.25rem 1.8rem rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+    .menu {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu a {
+        font-size: 1.2rem;
+    }
+
+    .menu a:hover {
+        color: var(--rosa);
+    } */
+}

@@ -60,7 +60,8 @@ ul.slider li.active {
     font-size: 1rem;
 }
 
-.menu-slider li a:hover, .menu-slider a.active i {
+.menu-slider li a:hover,
+.menu-slider a.active i {
     color: rgb(76, 76, 76);
 }
 
@@ -101,4 +102,17 @@ ul.slider li.active {
 
 #slide2 button:hover {
     background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 768px) {
+    .slider-container,
+    .slider-container .slider,
+    .slider-container .slider li,
+    .slider-container .slider img {
+        height: 90vh;
+    }
+    .slider-container {
+        width: 85%;
+        margin: 0 auto;
+    }
 }
