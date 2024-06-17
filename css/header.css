@@ -51,12 +51,15 @@ header {
     header {
         justify-content: center; 
         height: 0;
+        padding: 0;
     }
 
     .boton-menu {
         display: none;
     }
-    .contenedor-logo {
-        display: none;
+    .contenedor-logo a {
+        width: 10rem;
+        transform: none;
+        left: 88%;
     }
 }

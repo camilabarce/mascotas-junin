@@ -72,7 +72,6 @@ ul.slider li.active {
     padding-left: .75rem;
     font-size: 1.1rem;
     line-height: 1.5rem;
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     color: var(--gris-claro);
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.6);
@@ -109,10 +108,32 @@ ul.slider li.active {
     .slider-container .slider,
     .slider-container .slider li,
     .slider-container .slider img {
-        height: 90vh;
+        height: 100vh;
     }
+
     .slider-container {
-        width: 85%;
-        margin: 0 auto;
+        width: 60%;
+        padding: 0;
+    }
+
+    #slide1 h2 {
+        bottom: 25%;
+        left: 102%;
+        width: 50%;
+        color: var(--gris-oscuro);
+        text-shadow: none;
+        font-size: 5rem;
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        line-height: 5rem;
+    }
+
+    ul.slider, ul.slider li {
+        border-radius: 0;
+        border-radius: 0px 200px 0 96px;
+        overflow: visible;
+    }
+    .menu-slider {
+        display: none;
     }
 }
