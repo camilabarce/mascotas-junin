@@ -14,10 +14,12 @@ function loadLostPetsList(dataFile) {
                 const petItem = `
                     <li class="cards-item perdidos">
                         <a href="#open-modal" class="open-modal" data-id="${id}"><img src="${pet.img}" alt="Imagen de ${pet.nombre}"></a>
-                        <div class="text-card-container">
+                        <div class="text-card-container perdidos">
                             <h3>${pet.nombre}</h3>
-                            <p>Se perdió el</p>
-                            <p>${pet.fecha}</p>
+                            <div class="parrafos-fecha-perdidos">
+                                <p>Se perdió el</p>
+                                <p>${pet.fecha}</p>
+                            </div>
                         </div>
                     </li>`;
                 container.insertAdjacentHTML('beforeend', petItem);

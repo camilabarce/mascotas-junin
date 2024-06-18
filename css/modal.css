@@ -1,22 +1,26 @@
 .modal-window {
   position: fixed;
-  background-color: rgba(255, 255, 255, 0.25);
+  background: rgba(160, 82, 45, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 999;
+  z-index: 10;
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
 }
+
 .modal-window:target {
   visibility: visible;
   opacity: 1;
   pointer-events: auto;
 }
-.modal-window > div {
+
+.modal-window>div {
   width: 90%;
   border-radius: .6rem;
   position: absolute;
@@ -24,11 +28,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 2em;
-  background: white;
+  background: var(--gris-claro);
 }
+
 .modal-window header {
   font-weight: bold;
 }
+
 .modal-window h2 {
   font-size: 130%;
   font-weight: 600;
@@ -46,7 +52,9 @@
   top: 0;
   width: 70px;
   text-decoration: none;
+  transition: all .5s;
 }
+
 .modal-close:hover {
   color: black;
 }
@@ -57,4 +65,14 @@
 
 #modal-contacto {
   font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .modal-window>div {
+    width: 45%;
+  }
+
+  .modal-close {
+    font-size: .9rem;
+  }
 }

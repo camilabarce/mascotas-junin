@@ -31,6 +31,7 @@
 .bg-gray h3 {
     font-weight: 500;
     font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .bg-gray p {
@@ -39,8 +40,13 @@
     transition: all .4s;
 }
 
-.bg-gray p:hover {
-    color: var(--gris-claro);
+.bg-gray p a {
+    transition: all .5s;
+}
+
+.bg-gray p a:hover {
+    border-bottom: thin solid var(--gris-oscuro);
+    font-weight: 500;
 }
 
 .cards-item.perdidos {
@@ -55,7 +61,7 @@
 
     #slide1 h3.slide-texto {
         font-family: 'Poppins', sans-serif;
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 700;
         bottom: 25%;
         text-align: right;
@@ -64,11 +70,74 @@
     #slide1 p.slide-texto {
         justify-content: end;
         align-items: center;
-        bottom: 17%;
-        font-size: 1.5rem;
+        bottom: 18%;
+        font-size: 1.4rem;
+    }
+
+    #perdidos {
+        margin: 2rem auto;
     }
 
     .cards-item.perdidos {
         height: auto;
+    }
+
+    .parrafos-fecha-perdidos {
+        display: flex;
+        gap: .3rem;
+    }
+    
+    .text-card-container.perdidos {
+        align-items: center;
+    }
+
+    .text-card-container h3 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .parrafos-fecha-perdidos p:nth-child(2){
+        font-weight: 500;
+        border-bottom: thin solid var(--gris-oscuro);
+    }
+
+    div.slider-container.perdidos {
+        background-color: var(--gris-claro);
+        box-shadow: 4px 4px 55px -22px rgba(61,61,61,0.76);
+    }
+
+    div.slider-container.perdidos,
+    ul.slider.perdidos, 
+    img.img-perro-perdido {
+        height: 65vh !important; 
+        margin: auto !important;
+        border-radius: 1rem !important;
+    }
+
+    div.slider-container.perdidos {
+        margin-bottom: 2rem !important;
+    }
+    img.img-perro-perdido {
+        width: 45% !important;
+    }
+    
+    div.slider-container.perdidos {
+        width: 80% !important;
+        overflow: hidden;
+    }
+
+    .bg-gray {
+        height: 30%;
+        bottom: 52%;
+        left: 22%;
+        background-color: transparent;
+    }
+
+    .bg-gray h3 {
+        font-size: 1.4rem;
+    }
+
+    .bg-gray p {
+        font-size: 1.3rem;
     }
 }
