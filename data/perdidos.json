@@ -16,5 +16,14 @@
         "descripcion": "Es muy mimoso y juguetón, tiene 2 años y responde al nombre de Pepo",
         "nombre-dueno": "Juan Perez",
         "contacto": "2364538984"
+    },
+    "olivia": {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPpZOtTq4opOOXp5pr1vFyvuYC1t63KHyVbw&usqp=CAU",
+        "nombre": "Olivia",
+        "fecha": "25/05/2024",
+        "barrio": "Barrio 2",
+        "descripcion": "Es muy mimoso y juguetón, tiene 2 años y responde al nombre de Pepo",
+        "nombre-dueno": "Juan Perez",
+        "contacto": "2364538984"
     }
 }

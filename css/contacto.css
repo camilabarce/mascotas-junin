@@ -11,6 +11,10 @@
     top: 8%;
 }
 
+.img-contacto img {
+    display: none;
+}
+
 .contacto-container {
     background-color: var(--gris-xclaro);
     width: 90%;
@@ -24,4 +28,29 @@
     font-weight: lighter;
     width: 80%;
     padding: .9rem 0;
+}
+
+@media (min-width: 768px) {
+    .main-contact {
+        margin-top: 5rem;
+        width: 50%;
+        margin: 5rem auto;
+    }
+
+    .contacto-container h3 {
+        font-weight: normal;
+        font-size: 1.2rem;
+    }
+
+    #img-contacto {
+        display: none;
+    }
+
+    .img-contacto img {
+        display: block;
+        position: absolute;
+        top: 12vh;
+        right: 26.3vw;
+        width: 15%;
+    }
 }

@@ -72,9 +72,9 @@
     margin: auto;
     padding: .5rem 1.5rem;
     cursor: pointer;
-    border-radius: .25rem;
+    border-radius: .5rem;
     background-color: #88b04b7d;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .enviarBtn:hover {
@@ -139,4 +139,21 @@
 
 .invalid {
     border: thin solid #bf4040;
+}
+
+@media (min-width: 768px) {
+    .label {
+        font-size: 1rem;
+        left: 4.2%;
+    }
+
+    .input:focus+.label {
+        font-size: .9rem;
+    }
+
+    .enviarBtn {
+        width: 50%;
+        padding: .8rem 1.5rem;
+        border-radius: 1.5rem;
+    }
 }
