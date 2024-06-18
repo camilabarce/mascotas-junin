@@ -1,5 +1,5 @@
 #dar-adopcion {
-    height: 35vh;
+    height: 30vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -11,18 +11,20 @@
 }
 
 .container-imagen {
-    width: 50%;
+    width: 58%;
     height: 100%;
 }
 
 .container-texto {
-    width: 50%;
-    padding: 1rem;
+    width: 45%;
+    padding: .5rem;
+    text-align: center;
 }
 
 .container-texto h2 {
     font-size: 1rem;
     padding-top: .5rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container-texto p {

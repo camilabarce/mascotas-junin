@@ -1,4 +1,7 @@
 .btn-flecha {
+    display: flex;
+    align-items: center;
+    gap: .3rem;
     position: relative;
     z-index: 0;
     padding: .5rem;
@@ -154,7 +157,6 @@
     .ficha-container img {
         width: min-content;
         height: 80vh;
-        padding: 1.5rem;
         border-radius: 2rem;
     } 
 

@@ -123,14 +123,14 @@ ul.slider li.active {
         color: var(--gris-oscuro);
         text-shadow: none;
         font-size: 5rem;
-        font-family: 'Inter', sans-serif;
         font-weight: 700;
+        font-family: 'Inter', sans-serif;
         line-height: 5rem;
     }
 
     ul.slider, ul.slider li {
         border-radius: 0;
-        border-radius: 0px 200px 2px 96px;
+        border-radius: 0px 200px 0 96px;
         overflow: visible;
     }
     .menu-slider {

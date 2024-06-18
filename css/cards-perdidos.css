@@ -11,6 +11,8 @@
 #slide1 p.slide-texto {
     bottom: 11%;
     font-size: .9rem;
+    display: flex;
+    gap: .5rem;
 }
 
 .bg-gray {
@@ -43,4 +45,30 @@
 
 .cards-item.perdidos {
     height: 35vh;
+}
+
+@media (min-width: 768px) {
+    #slide1 .slide-texto {
+        left: 65%;
+        width: 100%;
+    }
+
+    #slide1 h3.slide-texto {
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        bottom: 25%;
+        text-align: right;
+    }
+
+    #slide1 p.slide-texto {
+        justify-content: end;
+        align-items: center;
+        bottom: 17%;
+        font-size: 1.5rem;
+    }
+
+    .cards-item.perdidos {
+        height: auto;
+    }
 }
