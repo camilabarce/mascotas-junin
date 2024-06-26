@@ -47,7 +47,7 @@ header {
     transform: translate(-50%, -30%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     header {
         justify-content: center; 
         height: 0;
@@ -57,9 +57,10 @@ header {
     .boton-menu {
         display: none;
     }
+    
     .contenedor-logo a {
         width: 10rem;
         transform: none;
-        left: 88%;
+        left: 84%;
     }
 }

@@ -29,7 +29,8 @@
     padding: .9rem 0;
 }
 
-@media (min-width: 768px) {
+
+@media (min-width: 1024px) {
     .main-contact {
         margin-top: 5rem;
         width: 60%;
@@ -51,7 +52,7 @@
         display: block;
         position: absolute;
         top: 12vh;
-        right: 26.3vw;
+        right: 22vw;
         width: 15%;
     }
 }

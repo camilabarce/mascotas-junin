@@ -137,7 +137,18 @@
     align-self: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) and (max-width: 1023px) {
+    .ficha-container {
+        width: 75%;
+        margin: 1rem auto;
+    }
+
+    .ficha-container>img {
+        height: 70vh;
+    }
+}
+
+@media (min-width: 1024px) {
     main.main-ficha {
         margin: 8vh 0;
     }

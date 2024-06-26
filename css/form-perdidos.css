@@ -141,7 +141,7 @@
     border: thin solid #bf4040;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .label {
         font-size: 1rem;
         left: 4.2%;

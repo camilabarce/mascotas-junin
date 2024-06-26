@@ -9,15 +9,16 @@
 .cards-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     gap: .8rem;
     transition: all .5s;
+    margin: 0 1rem;
 }
 
 .cards-item {
-    width: 45%;
+    width: 100%;
+    margin: auto;
     background-color: var(--gris-xclaro);
-    padding: .65rem;
+    padding: .8rem;
     border-radius: .5rem;
     -webkit-box-shadow: 4px 4px 55px -22px rgba(61, 61, 61, 0.76);
     -moz-box-shadow: 4px 4px 55px -22px rgba(61, 61, 61, 0.76);
@@ -35,7 +36,7 @@
 .cards-item img {
     border-radius: .5rem;
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     object-fit: cover;
 }
 
@@ -66,26 +67,47 @@
     transition: opacity 0.5s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) and (max-width: 1023px){
+    .cards-list {
+        margin: 0;
+    }
+
+    .cards-item {
+        width: 48%;
+    }
+
+    .cards-item img {
+        height: 25vh;
+    }
+
+    .text-card-container h3 {
+        font-size: 1.4rem;
+    }
+
+    .text-card-container p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1024px) {
     #adopta {
-        margin: 2rem 0;
+        margin: 2rem auto; 
     }
 
     .cards-container {
-        width: 80%;
         margin: auto;
     }
 
     .cards-list {
-        justify-content: space-between;
+        margin: 0;
     }
-    
+
     .cards-item {
-        width: 25%;
+        width: 30%;
     }
 
     .cards-item img {
-        height: 35vh;
+        height: 40vh;
     }
 
     .cards-item h3 {

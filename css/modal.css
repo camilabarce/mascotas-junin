@@ -67,7 +67,7 @@
   font-weight: 500;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .modal-window>div {
     width: 45%;
   }

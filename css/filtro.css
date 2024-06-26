@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: .5rem;
     align-items: center;
-    background-color: var(--gris-xclaro); 
+    background-color: var(--gris-claro); 
     box-shadow: 4px 4px 55px -22px rgba(61,61,61,0.76);
     border-radius: .5rem;
     margin:  1rem;
@@ -14,6 +14,7 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 1rem;
+    text-align: center;
 }
 
 .container-iconos-filtro {
@@ -30,13 +31,31 @@
     filter: grayscale(0%);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) and (max-width: 1023px) {
     .filtro {
-        width: 80%;
-        margin: auto;
+        padding: 3rem 0;
+    }
+
+    .filtro h2 {
+        font-size: 1.5rem;
+    }
+
+    .filtro p {
+        font-size: 1.3rem;
+    }
+
+    .filtro>.container-iconos-filtro img {
+        width: 3.8rem; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .filtro {
+        height: auto;
+        margin: 1rem;
         font-size: 1.1rem;
         line-height: 1.5rem;
-        padding: 1.5rem 0;
+        padding: 2rem;
     }
     .filtro h2 {
         font-size: 1.3rem;

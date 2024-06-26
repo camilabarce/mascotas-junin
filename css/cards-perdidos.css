@@ -6,11 +6,11 @@
 #slide1 h3.slide-texto {
     bottom: 23%;
     font-weight: 500;
+    font-size: 1.1rem;
 }
 
 #slide1 p.slide-texto {
     bottom: 11%;
-    font-size: .9rem;
     display: flex;
     gap: .5rem;
 }
@@ -65,7 +65,22 @@
     text-decoration-thickness: 1px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 500px) and (max-width: 1023px) {
+    #slide1 h3.slide-texto {
+        font-size: 1.8rem;
+        bottom: 20%;
+    }
+
+    #slide1 p.slide-texto {
+        font-size: 1.3rem;
+    }
+
+    #perdidosList {
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
     #slide1 .slide-texto {
         left: 65%;
         width: 100%;
@@ -75,14 +90,14 @@
         font-family: 'Poppins', sans-serif;
         font-size: 2.2rem;
         font-weight: 700;
-        bottom: 25%;
+        bottom: 50%;
         text-align: right;
     }
 
     #slide1 p.slide-texto {
         justify-content: end;
         align-items: center;
-        bottom: 18%;
+        bottom: 45%;
         font-size: 1.4rem;
     }
 

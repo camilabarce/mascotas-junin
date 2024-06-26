@@ -23,7 +23,7 @@
     background: rgba(30, 30, 30, 0.3);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     #btn-up {
         padding: 1rem;
         cursor: pointer;
