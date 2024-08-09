@@ -1,4 +1,105 @@
 {
+    "gata-nodriza": {
+        "nombre": "Gatas (mamá y bebé)",
+        "imagen": "img/gatos/gata-nodriza.webp",
+        "edad": "3 años",
+        "sexo": "Hembra",
+        "tamaño": "Mediano",
+        "peso": "4 y 1 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Ambas gatas (la bebé y la mamá) se dan en adopción conjunta. Los otros bebés fueron dados en adopción, pero la bebita que queda es muy pegada a la mamá , y no quisieramos separarlas, ya que la gata ya tiene una historia de vida muy triste, separarla de su hija podria ocasionar que la gata llegue a estar triste y dejar de comer. Solo se dará en adopción a persona responsable y que este dispuesta/o a darle calidad de vida",
+        "contacto": {
+            "nombre": "Rescatando Felinos",
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
+    "nala": {
+        "nombre": "Nala",
+        "imagen": "img/gatos/nala.webp",
+        "edad": "1 año",
+        "sexo": "Hembra",
+        "tamaño": "Chico",
+        "peso": "2 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Gatita tricolor que busca hogar responsable y amoroso. Ella ahora esta con tratamiento veterinario por mastitis, fue mamá y debido a que sus hijitos ya fueron entregados en adopción, se produjo la mastitis, está con tratamiento veterinario, pero nada grave mientras sea tratado. Se busca hogar definitivo, es una gatita muy sufrida, es súper buena y bella.",
+        "contacto": {
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
+    "gata adulta": {
+        "nombre": "Gata adulta",
+        "imagen": "img/gatos/gata.webp",
+        "edad": "5 años",
+        "sexo": "Hembra",
+        "tamaño": "Mediano",
+        "peso": "4 kg",
+        "esterilizacion": true,
+        "vacunacion": "Completa",
+        "descripcion": "Gata adulta busca hogar responsable y amoroso. Es muy tranquila y cariñosa. Es una de 3 gatas que están en adopción. Si no podés adoptar, o ayudar para comprar balanceado, ayudanos difundiendo 🙏",
+        "contacto": {
+            "nombre": "Rescatando Felinos",
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
+    "gatita bebé": {
+        "nombre": "Gatita bebé",
+        "imagen": "img/gatos/gatita.webp",
+        "edad": "2 meses",
+        "sexo": "Hembra",
+        "tamaño": "Chico",
+        "peso": "1 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Gatita bebé busca hogar responsable y amoroso. Es muy juguetona y cariñosa. Es una de 3 gatas que están en adopción. Si no podés adoptar, o ayudar para comprar balanceado, ayudanos difundiendo 🙏",
+        "contacto": {
+            "nombre": "Rescatando Felinos",
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
+    "gata gris": {
+        "nombre": "Gata gris",
+        "imagen": "img/gatos/gata-gris.webp",
+        "edad": "1 año",
+        "sexo": "Hembra",
+        "tamaño": "Mediano",
+        "peso": "3 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Gata gris busca hogar responsable y amoroso. Es muy tranquila y cariñosa. Es una de 3 gatas que están en adopción. Si no podés adoptar, o ayudar para comprar balanceado, ayudanos difundiendo 🙏",
+        "contacto": {
+            "nombre": "Rescatando Felinos",
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
+    "gatito": {
+        "nombre": "Gatito",
+        "imagen": "img/gatos/gatito.webp",
+        "edad": "3 meses",
+        "sexo": "Macho",
+        "tamaño": "Chico",
+        "peso": "1 kg",
+        "esterilizacion": false,
+        "vacunacion": "Incompleta",
+        "descripcion": "Gatito en adopción responsable 🩷 Es súper bueno!",
+        "contacto": {
+            "nombre": "Rescatando Felinos",
+            "apellido": "",
+            "imagen": "img/personas/rescatando-felinos.png",
+            "whatsapp": "5492364263522"
+        }
+    },
     "olivia": {
         "nombre": "Olivia",
         "imagen": "img/gatos/olivia.jpeg",
@@ -17,7 +118,7 @@
         }
     },
     "tom": {
-        "nombre": "Tom",
+        "nombre": "Tomi",
         "imagen": "img/gatos/tom.jpeg",
         "edad": "9 meses",
         "sexo": "Macho",
